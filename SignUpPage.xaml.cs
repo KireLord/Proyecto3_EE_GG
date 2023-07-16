@@ -11,7 +11,7 @@ namespace SignInAndSignUpUI
         {
             InitializeComponent();
         }
-
+        //Registro de usuario con la api mediante el boton que esta en la pantalla de Registro de usuario
         private async void OnSignUpClicked(object sender, EventArgs e)
         {
             string nombre = usernameEntry1.Text;

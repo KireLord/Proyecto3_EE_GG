@@ -13,6 +13,7 @@ namespace SignInAndSignUpUI
             InitializeComponent();
         }
 
+        //Conexion con la api mediante el boton que esta en la pantalla de inicio de sesion
         private async void OnLoginClicked(object sender, EventArgs e)
         {
             string username = usernameEntry.Text;
@@ -32,6 +33,7 @@ namespace SignInAndSignUpUI
 
                 if (response.IsSuccessStatusCode)
                 {
+
                     // La solicitud fue exitosa, puedes redirigir a la página de inicio o realizar otras acciones necesarias
                     await DisplayAlert("Inicio de Sesión Exitoso", "Bienvenido!", "OK");
                     // Redirige a la página de inicio (HomePage)
