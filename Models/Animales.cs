@@ -8,3 +8,4 @@
         public AnimalesLogo User { get; set; }
     }
 }
+//VariablesAnimales
